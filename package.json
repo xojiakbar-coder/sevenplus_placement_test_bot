@@ -1,0 +1,18 @@
+{
+  "name": "english-placement-telegram-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram bot for English placement test (Grammar, Vocabulary, Reading) built with Telegraf.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
